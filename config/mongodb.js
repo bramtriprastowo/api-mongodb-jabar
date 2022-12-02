@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb');
-const url = process.env.MONGO_URL || 'mongodb://jabar:maskil52@localhost:27017?authSource=admin';
+const url = process.env.MONGO_URL;
 
 const client = new MongoClient(url);
 
